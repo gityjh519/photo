@@ -12,6 +12,43 @@
 		F75B4D8C2235FE0500A6CDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75B4D8A2235FE0500A6CDEF /* Main.storyboard */; };
 		F75B4D8E2235FE0700A6CDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75B4D8D2235FE0700A6CDEF /* Assets.xcassets */; };
 		F75B4D912235FE0700A6CDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75B4D8F2235FE0700A6CDEF /* LaunchScreen.storyboard */; };
+		F75B4D9A2235FE5C00A6CDEF /* JHSPhotoManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4D992235FE5C00A6CDEF /* JHSPhotoManger.swift */; };
+		F75B4DB72235FFEB00A6CDEF /* TransitionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4D9E2235FFEB00A6CDEF /* TransitionManger.swift */; };
+		F75B4DB82235FFEB00A6CDEF /* PopBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4D9F2235FFEB00A6CDEF /* PopBaseViewController.swift */; };
+		F75B4DB92235FFEB00A6CDEF /* CurrentModelContontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DA02235FFEB00A6CDEF /* CurrentModelContontroller.swift */; };
+		F75B4DBA2235FFEB00A6CDEF /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DA12235FFEB00A6CDEF /* BaseController.swift */; };
+		F75B4DBB2235FFEB00A6CDEF /* JHSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DA22235FFEB00A6CDEF /* JHSBaseViewController.swift */; };
+		F75B4DBC2235FFEB00A6CDEF /* RequestOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DA42235FFEB00A6CDEF /* RequestOperation.swift */; };
+		F75B4DBD2235FFEB00A6CDEF /* ReadFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DA52235FFEB00A6CDEF /* ReadFileManager.swift */; };
+		F75B4DBE2235FFEB00A6CDEF /* RequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DA62235FFEB00A6CDEF /* RequestConfig.swift */; };
+		F75B4DBF2235FFEB00A6CDEF /* RelationFileKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DA72235FFEB00A6CDEF /* RelationFileKey.swift */; };
+		F75B4DC02235FFEB00A6CDEF /* HttpParamterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DA82235FFEB00A6CDEF /* HttpParamterModel.swift */; };
+		F75B4DC12235FFEB00A6CDEF /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DAA2235FFEB00A6CDEF /* BaseModel.swift */; };
+		F75B4DC22235FFEB00A6CDEF /* FMBaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DAC2235FFEB00A6CDEF /* FMBaseCollectionView.swift */; };
+		F75B4DC32235FFEB00A6CDEF /* FMScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DAD2235FFEB00A6CDEF /* FMScrollView.swift */; };
+		F75B4DC42235FFEB00A6CDEF /* BlurModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DAE2235FFEB00A6CDEF /* BlurModelView.swift */; };
+		F75B4DC52235FFEB00A6CDEF /* FMBaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DAF2235FFEB00A6CDEF /* FMBaseTableView.swift */; };
+		F75B4DC62235FFEB00A6CDEF /* DefineSwiftFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DB12235FFEB00A6CDEF /* DefineSwiftFunc.swift */; };
+		F75B4DC72235FFEB00A6CDEF /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DB22235FFEB00A6CDEF /* ExtensionView.swift */; };
+		F75B4DC82235FFEB00A6CDEF /* AppDelegateExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DB32235FFEB00A6CDEF /* AppDelegateExtenstion.swift */; };
+		F75B4DC92235FFEB00A6CDEF /* AppExtenConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DB42235FFEB00A6CDEF /* AppExtenConfig.swift */; };
+		F75B4DCA2235FFEB00A6CDEF /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DB62235FFEB00A6CDEF /* DataBaseManager.swift */; };
+		F75B4DD1223634AC00A6CDEF /* JHSPhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DD0223634AC00A6CDEF /* JHSPhotoController.swift */; };
+		F75B4DD3223636FC00A6CDEF /* JHSImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DD2223636FC00A6CDEF /* JHSImageController.swift */; };
+		F75B4DD72236534800A6CDEF /* JHSAlbumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DD62236534800A6CDEF /* JHSAlbumController.swift */; };
+		F75B4DD92236583500A6CDEF /* ScalePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DD82236583500A6CDEF /* ScalePictureView.swift */; };
+		F75B4DDB2236586200A6CDEF /* JHSBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B4DDA2236586200A6CDEF /* JHSBaseView.swift */; };
+		F784191322389FC2009F8AE7 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F784191122389FC2009F8AE7 /* selected@2x.png */; };
+		F784191422389FC2009F8AE7 /* unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F784191222389FC2009F8AE7 /* unselected@2x.png */; };
+		F78419172238A7FB009F8AE7 /* invoiceUnSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F78419152238A7FB009F8AE7 /* invoiceUnSelected@2x.png */; };
+		F78419182238A7FB009F8AE7 /* invoiceSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F78419162238A7FB009F8AE7 /* invoiceSelected@2x.png */; };
+		F784191A2238A880009F8AE7 /* JHSPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78419192238A880009F8AE7 /* JHSPathView.swift */; };
+		F784191C2238BE18009F8AE7 /* JHSPhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F784191B2238BE17009F8AE7 /* JHSPhotoModel.swift */; };
+		F7C4FED122375AB4002CAF17 /* JHSAssetManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4FED022375AB4002CAF17 /* JHSAssetManger.swift */; };
+		F7C4FED322375AD4002CAF17 /* JHSPhotoTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4FED222375AD4002CAF17 /* JHSPhotoTableController.swift */; };
+		F7C4FED522375E28002CAF17 /* JHSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4FED422375E28002CAF17 /* JHSError.swift */; };
+		F7C4FED722378F4E002CAF17 /* JHSAssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C4FED622378F4E002CAF17 /* JHSAssetModel.swift */; };
+		F7C4FED92237A89E002CAF17 /* 123.png in Resources */ = {isa = PBXBuildFile; fileRef = F7C4FED82237A89D002CAF17 /* 123.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +59,44 @@
 		F75B4D8D2235FE0700A6CDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75B4D902235FE0700A6CDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F75B4D922235FE0700A6CDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75B4D992235FE5C00A6CDEF /* JHSPhotoManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSPhotoManger.swift; sourceTree = "<group>"; };
+		F75B4D9E2235FFEB00A6CDEF /* TransitionManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManger.swift; sourceTree = "<group>"; };
+		F75B4D9F2235FFEB00A6CDEF /* PopBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopBaseViewController.swift; sourceTree = "<group>"; };
+		F75B4DA02235FFEB00A6CDEF /* CurrentModelContontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentModelContontroller.swift; sourceTree = "<group>"; };
+		F75B4DA12235FFEB00A6CDEF /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		F75B4DA22235FFEB00A6CDEF /* JHSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSBaseViewController.swift; sourceTree = "<group>"; };
+		F75B4DA42235FFEB00A6CDEF /* RequestOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestOperation.swift; sourceTree = "<group>"; };
+		F75B4DA52235FFEB00A6CDEF /* ReadFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadFileManager.swift; sourceTree = "<group>"; };
+		F75B4DA62235FFEB00A6CDEF /* RequestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConfig.swift; sourceTree = "<group>"; };
+		F75B4DA72235FFEB00A6CDEF /* RelationFileKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelationFileKey.swift; sourceTree = "<group>"; };
+		F75B4DA82235FFEB00A6CDEF /* HttpParamterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpParamterModel.swift; sourceTree = "<group>"; };
+		F75B4DAA2235FFEB00A6CDEF /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		F75B4DAC2235FFEB00A6CDEF /* FMBaseCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBaseCollectionView.swift; sourceTree = "<group>"; };
+		F75B4DAD2235FFEB00A6CDEF /* FMScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMScrollView.swift; sourceTree = "<group>"; };
+		F75B4DAE2235FFEB00A6CDEF /* BlurModelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurModelView.swift; sourceTree = "<group>"; };
+		F75B4DAF2235FFEB00A6CDEF /* FMBaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBaseTableView.swift; sourceTree = "<group>"; };
+		F75B4DB12235FFEB00A6CDEF /* DefineSwiftFunc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineSwiftFunc.swift; sourceTree = "<group>"; };
+		F75B4DB22235FFEB00A6CDEF /* ExtensionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		F75B4DB32235FFEB00A6CDEF /* AppDelegateExtenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateExtenstion.swift; sourceTree = "<group>"; };
+		F75B4DB42235FFEB00A6CDEF /* AppExtenConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtenConfig.swift; sourceTree = "<group>"; };
+		F75B4DB62235FFEB00A6CDEF /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		F75B4DCB223601E800A6CDEF /* Bridging_Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging_Swift.h; sourceTree = "<group>"; };
+		F75B4DD0223634AC00A6CDEF /* JHSPhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSPhotoController.swift; sourceTree = "<group>"; };
+		F75B4DD2223636FC00A6CDEF /* JHSImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSImageController.swift; sourceTree = "<group>"; };
+		F75B4DD62236534800A6CDEF /* JHSAlbumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSAlbumController.swift; sourceTree = "<group>"; };
+		F75B4DD82236583500A6CDEF /* ScalePictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalePictureView.swift; sourceTree = "<group>"; };
+		F75B4DDA2236586200A6CDEF /* JHSBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSBaseView.swift; sourceTree = "<group>"; };
+		F784191122389FC2009F8AE7 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
+		F784191222389FC2009F8AE7 /* unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected@2x.png"; sourceTree = "<group>"; };
+		F78419152238A7FB009F8AE7 /* invoiceUnSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invoiceUnSelected@2x.png"; sourceTree = "<group>"; };
+		F78419162238A7FB009F8AE7 /* invoiceSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "invoiceSelected@2x.png"; sourceTree = "<group>"; };
+		F78419192238A880009F8AE7 /* JHSPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSPathView.swift; sourceTree = "<group>"; };
+		F784191B2238BE17009F8AE7 /* JHSPhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSPhotoModel.swift; sourceTree = "<group>"; };
+		F7C4FED022375AB4002CAF17 /* JHSAssetManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHSAssetManger.swift; sourceTree = "<group>"; };
+		F7C4FED222375AD4002CAF17 /* JHSPhotoTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSPhotoTableController.swift; sourceTree = "<group>"; };
+		F7C4FED422375E28002CAF17 /* JHSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSError.swift; sourceTree = "<group>"; };
+		F7C4FED622378F4E002CAF17 /* JHSAssetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHSAssetModel.swift; sourceTree = "<group>"; };
+		F7C4FED82237A89D002CAF17 /* 123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +129,140 @@
 		F75B4D852235FE0500A6CDEF /* JHSPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				F784191022389FC2009F8AE7 /* resource */,
+				F7C4FECF22375AB4002CAF17 /* newcls */,
+				F75B4D9B2235FFEB00A6CDEF /* frameTask */,
+				F75B4D982235FE4100A6CDEF /* cls */,
 				F75B4D862235FE0500A6CDEF /* AppDelegate.swift */,
 				F75B4D882235FE0500A6CDEF /* ViewController.swift */,
+				F75B4DCB223601E800A6CDEF /* Bridging_Swift.h */,
 				F75B4D8A2235FE0500A6CDEF /* Main.storyboard */,
 				F75B4D8D2235FE0700A6CDEF /* Assets.xcassets */,
 				F75B4D8F2235FE0700A6CDEF /* LaunchScreen.storyboard */,
 				F75B4D922235FE0700A6CDEF /* Info.plist */,
 			);
 			path = JHSPhoto;
+			sourceTree = "<group>";
+		};
+		F75B4D982235FE4100A6CDEF /* cls */ = {
+			isa = PBXGroup;
+			children = (
+				F75B4D992235FE5C00A6CDEF /* JHSPhotoManger.swift */,
+				F75B4DD62236534800A6CDEF /* JHSAlbumController.swift */,
+				F784191B2238BE17009F8AE7 /* JHSPhotoModel.swift */,
+				F75B4DD0223634AC00A6CDEF /* JHSPhotoController.swift */,
+				F75B4DD2223636FC00A6CDEF /* JHSImageController.swift */,
+				F7C4FED82237A89D002CAF17 /* 123.png */,
+			);
+			path = cls;
+			sourceTree = "<group>";
+		};
+		F75B4D9B2235FFEB00A6CDEF /* frameTask */ = {
+			isa = PBXGroup;
+			children = (
+				F75B4D9C2235FFEB00A6CDEF /* controller */,
+				F75B4DA32235FFEB00A6CDEF /* http */,
+				F75B4DA92235FFEB00A6CDEF /* model */,
+				F75B4DAB2235FFEB00A6CDEF /* view */,
+				F75B4DB02235FFEB00A6CDEF /* extenstion */,
+				F75B4DB52235FFEB00A6CDEF /* caches */,
+			);
+			path = frameTask;
+			sourceTree = "<group>";
+		};
+		F75B4D9C2235FFEB00A6CDEF /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F75B4D9D2235FFEB00A6CDEF /* pop */,
+				F75B4DA12235FFEB00A6CDEF /* BaseController.swift */,
+				F75B4DA22235FFEB00A6CDEF /* JHSBaseViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F75B4D9D2235FFEB00A6CDEF /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				F75B4D9E2235FFEB00A6CDEF /* TransitionManger.swift */,
+				F75B4D9F2235FFEB00A6CDEF /* PopBaseViewController.swift */,
+				F75B4DA02235FFEB00A6CDEF /* CurrentModelContontroller.swift */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		F75B4DA32235FFEB00A6CDEF /* http */ = {
+			isa = PBXGroup;
+			children = (
+				F75B4DA42235FFEB00A6CDEF /* RequestOperation.swift */,
+				F75B4DA52235FFEB00A6CDEF /* ReadFileManager.swift */,
+				F75B4DA62235FFEB00A6CDEF /* RequestConfig.swift */,
+				F75B4DA72235FFEB00A6CDEF /* RelationFileKey.swift */,
+				F75B4DA82235FFEB00A6CDEF /* HttpParamterModel.swift */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		F75B4DA92235FFEB00A6CDEF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F75B4DAA2235FFEB00A6CDEF /* BaseModel.swift */,
+				F7C4FED422375E28002CAF17 /* JHSError.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F75B4DAB2235FFEB00A6CDEF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F75B4DAC2235FFEB00A6CDEF /* FMBaseCollectionView.swift */,
+				F75B4DAD2235FFEB00A6CDEF /* FMScrollView.swift */,
+				F75B4DAE2235FFEB00A6CDEF /* BlurModelView.swift */,
+				F75B4DAF2235FFEB00A6CDEF /* FMBaseTableView.swift */,
+				F75B4DD82236583500A6CDEF /* ScalePictureView.swift */,
+				F75B4DDA2236586200A6CDEF /* JHSBaseView.swift */,
+				F78419192238A880009F8AE7 /* JHSPathView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F75B4DB02235FFEB00A6CDEF /* extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				F75B4DB12235FFEB00A6CDEF /* DefineSwiftFunc.swift */,
+				F75B4DB22235FFEB00A6CDEF /* ExtensionView.swift */,
+				F75B4DB32235FFEB00A6CDEF /* AppDelegateExtenstion.swift */,
+				F75B4DB42235FFEB00A6CDEF /* AppExtenConfig.swift */,
+			);
+			path = extenstion;
+			sourceTree = "<group>";
+		};
+		F75B4DB52235FFEB00A6CDEF /* caches */ = {
+			isa = PBXGroup;
+			children = (
+				F75B4DB62235FFEB00A6CDEF /* DataBaseManager.swift */,
+			);
+			path = caches;
+			sourceTree = "<group>";
+		};
+		F784191022389FC2009F8AE7 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F784191122389FC2009F8AE7 /* selected@2x.png */,
+				F78419162238A7FB009F8AE7 /* invoiceSelected@2x.png */,
+				F78419152238A7FB009F8AE7 /* invoiceUnSelected@2x.png */,
+				F784191222389FC2009F8AE7 /* unselected@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		F7C4FECF22375AB4002CAF17 /* newcls */ = {
+			isa = PBXGroup;
+			children = (
+				F7C4FED022375AB4002CAF17 /* JHSAssetManger.swift */,
+				F7C4FED622378F4E002CAF17 /* JHSAssetModel.swift */,
+				F7C4FED222375AD4002CAF17 /* JHSPhotoTableController.swift */,
+			);
+			path = newcls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +324,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F75B4D912235FE0700A6CDEF /* LaunchScreen.storyboard in Resources */,
+				F78419182238A7FB009F8AE7 /* invoiceSelected@2x.png in Resources */,
 				F75B4D8E2235FE0700A6CDEF /* Assets.xcassets in Resources */,
+				F784191322389FC2009F8AE7 /* selected@2x.png in Resources */,
 				F75B4D8C2235FE0500A6CDEF /* Main.storyboard in Resources */,
+				F784191422389FC2009F8AE7 /* unselected@2x.png in Resources */,
+				F7C4FED92237A89E002CAF17 /* 123.png in Resources */,
+				F78419172238A7FB009F8AE7 /* invoiceUnSelected@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +342,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				F75B4D892235FE0500A6CDEF /* ViewController.swift in Sources */,
+				F75B4DBB2235FFEB00A6CDEF /* JHSBaseViewController.swift in Sources */,
+				F784191C2238BE18009F8AE7 /* JHSPhotoModel.swift in Sources */,
+				F75B4DC12235FFEB00A6CDEF /* BaseModel.swift in Sources */,
 				F75B4D872235FE0500A6CDEF /* AppDelegate.swift in Sources */,
+				F75B4DBD2235FFEB00A6CDEF /* ReadFileManager.swift in Sources */,
+				F75B4DBC2235FFEB00A6CDEF /* RequestOperation.swift in Sources */,
+				F75B4DC72235FFEB00A6CDEF /* ExtensionView.swift in Sources */,
+				F75B4DBA2235FFEB00A6CDEF /* BaseController.swift in Sources */,
+				F75B4DC02235FFEB00A6CDEF /* HttpParamterModel.swift in Sources */,
+				F75B4DC42235FFEB00A6CDEF /* BlurModelView.swift in Sources */,
+				F75B4DDB2236586200A6CDEF /* JHSBaseView.swift in Sources */,
+				F75B4DC52235FFEB00A6CDEF /* FMBaseTableView.swift in Sources */,
+				F75B4DD92236583500A6CDEF /* ScalePictureView.swift in Sources */,
+				F75B4DBE2235FFEB00A6CDEF /* RequestConfig.swift in Sources */,
+				F75B4DD1223634AC00A6CDEF /* JHSPhotoController.swift in Sources */,
+				F75B4DB72235FFEB00A6CDEF /* TransitionManger.swift in Sources */,
+				F75B4DC32235FFEB00A6CDEF /* FMScrollView.swift in Sources */,
+				F75B4DC62235FFEB00A6CDEF /* DefineSwiftFunc.swift in Sources */,
+				F75B4DCA2235FFEB00A6CDEF /* DataBaseManager.swift in Sources */,
+				F7C4FED122375AB4002CAF17 /* JHSAssetManger.swift in Sources */,
+				F75B4D9A2235FE5C00A6CDEF /* JHSPhotoManger.swift in Sources */,
+				F75B4DB82235FFEB00A6CDEF /* PopBaseViewController.swift in Sources */,
+				F7C4FED722378F4E002CAF17 /* JHSAssetModel.swift in Sources */,
+				F75B4DC22235FFEB00A6CDEF /* FMBaseCollectionView.swift in Sources */,
+				F7C4FED522375E28002CAF17 /* JHSError.swift in Sources */,
+				F7C4FED322375AD4002CAF17 /* JHSPhotoTableController.swift in Sources */,
+				F784191A2238A880009F8AE7 /* JHSPathView.swift in Sources */,
+				F75B4DB92235FFEB00A6CDEF /* CurrentModelContontroller.swift in Sources */,
+				F75B4DD3223636FC00A6CDEF /* JHSImageController.swift in Sources */,
+				F75B4DBF2235FFEB00A6CDEF /* RelationFileKey.swift in Sources */,
+				F75B4DD72236534800A6CDEF /* JHSAlbumController.swift in Sources */,
+				F75B4DC92235FFEB00A6CDEF /* AppExtenConfig.swift in Sources */,
+				F75B4DC82235FFEB00A6CDEF /* AppDelegateExtenstion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,14 +521,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FD48428QD7;
+				DEVELOPMENT_TEAM = GJUVMN7HVC;
 				INFOPLIST_FILE = JHSPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.huoyuan.JHSPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/yaojinhai/Desktop/JHSPhoto/JHSPhoto/Bridging_Swift.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,14 +541,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FD48428QD7;
+				DEVELOPMENT_TEAM = GJUVMN7HVC;
 				INFOPLIST_FILE = JHSPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.huoyuan.JHSPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/yaojinhai/Desktop/JHSPhoto/JHSPhoto/Bridging_Swift.h;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
